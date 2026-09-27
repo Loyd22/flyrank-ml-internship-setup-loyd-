@@ -110,6 +110,62 @@ foundation they all build on.
 4. That's your submission repo — share its **github.com/you/your-repo** URL with Assignment 1
    (never a colab.research.google.com or drive.google.com link).
 
+
+
+# FlyRank ML Internship Capstone  
+## Content Review Prioritization Using Search and Engagement Signals
+
+**Author:** John Loyd Viray  
+**Track:** FlyRank ML Internship / AI Fluency Capstone  
+**Lane:** Refresh / Content Opportunity Scoring  
+
+---
+
+## Project Summary
+
+This project ranks website pages that may deserve human content review based on observed search and engagement signals.
+
+The goal is not to automatically rewrite, delete, redirect, or publish content. The goal is to help content and SEO teams decide which pages should be reviewed first.
+
+Content and SEO teams often manage more pages than they can manually inspect. Some pages may receive search impressions but few clicks. Other pages may receive traffic but weak engagement. This project turns those observed signals into a ranked review queue for human decision support.
+
+---
+
+## Who This Is For
+
+This project is for:
+
+- SEO teams
+- Content teams
+- Editors
+- Marketing teams
+- Analysts who need to prioritize page review work
+
+Instead of reviewing pages randomly, a team can use the ranked queue to decide where to inspect first.
+
+---
+
+## Main Question
+
+The main question is:
+
+> Can observed search and engagement signals help prioritize which website pages a human reviewer should inspect first?
+
+This project frames the problem as **Refresh / Content Opportunity Scoring**.
+
+The output is a ranked review queue, not an automatic content editor.
+
+---
+
+## Data Source
+
+This project uses the **FlyRank ML Internship dataset**.
+
+Main table used:
+
+```text
+fact_content_daily_performance
+
 ---
 
 *Track leads: Mirza Ašćerić (ML) · Hole (data engineering). Code under MIT (see `LICENSE`); data under `DATA_USE.md`.*
